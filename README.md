@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ajora
 
-## Getting Started
+A concept landing page for Ajora, an app that runs ajo and esusu rotating savings circles for Nigerian market associations and cooperatives.
 
-First, run the development server:
+Built with Next.js 15, React 19, Tailwind CSS v4 and lucide-react. All names, figures, quotes, prices and translations are placeholder content.
+
+## Highlights
+
+- **Paper card to app**: a sticky scroll scene where a hand-ruled ajo card turns into the ledger, row by row.
+- **Rotation wheel**: 12 members around a circle with the pot moving week by week (play, pause, step, or tap a member).
+- **WhatsApp receipts**: a phone mockup that switches between English, Pidgin, Yorùbá, Igbo and Hausa.
+- **Ajo calculator**: hand, members, frequency and turn give your pot, payout date and plan.
+
+## Run it
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
