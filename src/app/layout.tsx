@@ -9,10 +9,10 @@ const dm = DM_Sans({ subsets: ["latin", "latin-ext"], variable: "--font-dm", dis
 const caveat = Caveat({ subsets: ["latin"], variable: "--font-caveat", display: "swap" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ajora.example"),
+  metadataBase: new URL("https://ajora-landing-six.vercel.app"),
   title: { default: "Ajora | Your ajo, minus the wahala", template: "%s | Ajora" },
   description: "Ajora runs ajo and esusu savings circles for market associations and co-ops: collect by transfer, USSD or cash, match every naira, and pay out with two officers signing off.",
-  openGraph: { type: "website", siteName: "Ajora", title: "Ajora | Your ajo, minus the wahala", url: "https://ajora.example/" },
+  openGraph: { type: "website", siteName: "Ajora", title: "Ajora | Your ajo, minus the wahala", url: "https://ajora-landing-six.vercel.app/" },
 };
 
 export const viewport: Viewport = { themeColor: "#fff6e8" };
